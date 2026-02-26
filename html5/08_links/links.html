@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com links</title>
+  </head>
+  <body>
+    <h1>Usando links externos</h1>
+    <p>
+      Voce pode acessar o G1
+      <a href="https://g1.globo.com/" target="_blank" rel="external">aqui</a>
+    </p>
+    <p>
+      Voce tambem pode acessar atraves do
+      <a href="https://www.youtube.com/c/g1" target="_blank" rel="external"
+        >youtube
+      </a>
+    </p>
+    <h2>Links Internos</h2>
+    <p>
+      Para adicionar links internos dentro do HTML, você precisa informar o
+      seguinte comando; <br />
+      <code>
+        <pre>
+          &lt;< a &gt;  href="../01_paragrafos/paragrafos.html" rel="next" >Paragrafos &lt;< / a &gt; 
+        </pre>
+      </code>
+    </p>
+    <p>
+      <a href="../01_paragrafos/paragrafos.html"> Exemplo de código</a>
+    </p>
+    <p>Podemos também adicionar um link para retornar a página anterior</p>
+    <code>
+      <pre>
+          &lt;< a &gt;  href="../lista.html" rel="prev" target="_self" >Retornar  &lt;< / a &gt; 
+        </pre
+      >
+    </code>
+    <p><a href="../lista.html" rel="prev" target="_self"> Retornar </a></p>
+
+    <h2>links para Dowloads</h2>
+    <ul>
+      <li>
+        <a
+          href="../../assets/Livro/livro_link.pdf"
+          download="livro_link.pdf"
+          type="application/pdf"
+          >Baixar livro em PDF</a
+        >
+      </li>
+      <li>
+        <a
+          href="../../assets/Livro/livro_links.pdf.zip"
+          download="livro_links"
+          type="application/zip"
+          >Livro compactado em ZIP</a
+        >
+      </li>
+    </ul>
+    <h3>LISTA DE MEDIA TYPES</h3>
+    <p>
+      Se você quer saber o que escrever dentro do atributo type de uma âncora de
+      hypertext, consulte a lista oficial da IANA.org disponível no link.
+      <a
+        href="https://www.iana.org/assignments/media-types/media-types.xhtml"
+        rel="next"
+        target="_self"
+        >LISTA DE MEDIA TYPES
+      </a>
+    </p>
+  </body>
+</html>

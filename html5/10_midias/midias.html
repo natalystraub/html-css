@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta
+      content="initial-scale=1, width=device-width, maximum-scale=1"
+      name="viewport"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Midias e audios</title>
+  </head>
+  <body>
+    <h1>Colocando Audio no site</h1>
+    <p>
+      Para inserir audios em sites, precisa ser compativel com os seguintes
+      arquivos: Mp3, WAV e OGG.
+    </p>
+
+    <h2>Exemplo de Audio</h2>
+    <audio src="../../audio/bymyself.mp3" controls></audio>
+    <audio preload="metadata" controls>
+      <source src="../../audio/bymyself.mp3" type="audio/mpeg" />
+      <source src="../../audio/bymyself.ogg" type="audio/ogg" />
+      <source src="../../audio/bymyself.wav" type="audio/wav" />
+    </audio>
+
+    <h2>Colocando Video</h2>
+    <p>
+      Se precisar converter videos, pode utilizar o
+      <a href="https://handbrake.fr/" rel="next" target="_blank">Handebrak</a>
+    </p>
+    <p>
+      Video explicativo no seguinte link
+      <a
+        href="https://www.youtube.com/watch?v=DjOSM72cYac"
+        rel="next"
+        target="_blank"
+        >curso em video</a
+      >
+    </p>
+    <p>
+      Antes de colocar o video, segue algumas informacoes
+      <strong>importantes</strong>. MP4, WEBM, OGV
+    </p>
+    <h3>Fortmatos de Videos</h3>
+    <p>
+      Assim como audio, ao adicionar video no seu site, voce tambem precisa
+      colocar todos os tamanhos. De preferencia, iniciando com o menos pesado.
+    </p>
+    <ul>
+      <li>Mp4</li>
+      <li>OGV</li>
+      <li>WEBM</li>
+    </ul>
+    <h3>Configurar os Atributo</h3>
+    <ul>
+      <li>
+        <code>width</code> vai indicar a largura que o video vai ter nela. Nesse
+        exemplo 600px
+      </li>
+      <li>
+        <code>poster</code> configura uma imgagem que vai apareceer como uma
+        capa, enquanto o visitante não aperta o play para reproduzir o video
+      </li>
+      <li>
+        <code>controls</code> vai configurar se os controles do video vão
+        apareceer na parte inferior da mídia. Por padrão, os controles não
+        aparecerão, mas basta colocar a palavra <code>controls</code> na tag
+        <code>video</code>
+      </li>
+      <li>
+        <code>autoplay</code> fiz para o navegador se o vídeo vai começar a
+        tocar automaticamente, assim que a página for carregada.
+      </li>
+    </ul>
+    <h2>Adicionando Video no Site</h2>
+    <p>Video hospedado no meu proprio servidor.</p>
+
+    <video width="200px" controls>
+      <source src="../../Video/video.mp4" type="video/mp4" />
+      <source src="../../Video/video.mp4" type="video/m4v" />
+      <source src="../../Video/video.mp4" type="video/webm" />
+    </video>
+
+    <h2>Adicionando videos do youtube</h2>
+    <p>
+      Para o site não ficar pesado, você pode utilizar sites como: Youtube. Como
+      no exemplo a seguir
+    </p>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Nb2v5eZJq7E?si=em9ChAXvXvsj1BsH?&autoplay=1&controls=1&mute=1"
+      title="YouTube video player"
+      frameborder="0"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

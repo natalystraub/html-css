@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes Externas</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+      @font-face {
+        font-family: "ubuntu";
+        src: url(../../assets/fonts/Ubuntu-Light.woff) format(woff);
+        font-weight: 100;
+        font-size: normal;
+        font-display: swap;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      h1,
+      h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .description {
+        font-family: "ubuntu", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Fontes Externas</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut eaque,
+      error ipsum necessitatibus soluta amet illum iste adipisci excepturi
+      quibusdam unde illo esse. Vitae pariatur tempora a accusamus recusandae?
+    </p>
+
+    <p class="description">
+      Sempre converter o arquivo de fonte para WOFF (1 e 2) para melhorar e
+      otimizar o desempenho
+    </p>
+
+    <h2>Desafios fonts</h2>
+
+    1 passo: - baixar uma fonte do google arquivo (Fonte - Ubuntu) - importar
+    uma fonte do google para css (Fonte - Poppins) - importar uma fonte do
+    google para html (Font - Montserrat) inserir tudo no mesmo arquivo;
+  </body>
+</html>

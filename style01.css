@@ -1,0 +1,26 @@
+@charset "UTF-8";
+* {
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&family=Ledger&display=swap");
+}
+body {
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff6f0;
+}
+main {
+  background-color: #fff6f0;
+  padding: 20px;
+}
+h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+}
+h2 {
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
