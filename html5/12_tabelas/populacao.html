@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>População</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .table {
+        border-collapse: collapse;
+        min-width: 40%;
+      }
+      .titulo {
+        font-size: 1.6rem;
+        background-color: lightgrey;
+        padding: 2%;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 4%;
+      }
+      .cabecalho {
+        color: white;
+        background-color: rgb(168, 168, 168);
+      }
+      .numb {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Uso da Semântica em tabelas grandes</h1>
+    <table class="table">
+      <caption class="titulo">
+        Unidades federativas do Brasil por população
+      </caption>
+      <thead class="cabecalho">
+        <tr>
+          <th scope="col">Estado</th>
+          <th scope="col">Estimativa populacional</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="-gray">São Paulo</td>
+          <td class="numb">46 081 801</td>
+        </tr>
+        <tr>
+          <td class="-gray">Minas Gerais</td>
+          <td class="numb">21 393 441</td>
+        </tr>
+        <tr>
+          <td class="-gray">Rio de Janeiro</td>
+          <td class="numb">17 223 547</td>
+        </tr>
+        <tr>
+          <td class="-gray">Bahia</td>
+          <td class="numb">14 870 907</td>
+        </tr>
+        <tr>
+          <td class="-gray">Paraná</td>
+          <td class="numb">11 890 517</td>
+        </tr>
+        <tr>
+          <td class="-gray">Rio Grande do Sul</td>
+          <td class="numb">11 233 263</td>
+        </tr>
+      </tbody>
+      <tfoot class="cabecalho">
+        <tr>
+          <th scope="row">Total</th>
+          <td class="numb">122 693 476</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
