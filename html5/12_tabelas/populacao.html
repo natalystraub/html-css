@@ -8,11 +8,20 @@
       body {
         font-family: Arial, Helvetica, sans-serif;
       }
+
+      /* cabecalho da tabela fixo na rolagem */
+      thead tr th {
+        position: sticky;
+        top: -1px;
+        background-color: rgb(168, 168, 168);
+      }
       .table {
         border-collapse: collapse;
         min-width: 40%;
+        position: relative;
       }
       .titulo {
+        font-weight: bold;
         font-size: 1.6rem;
         background-color: lightgrey;
         padding: 2%;
@@ -20,7 +29,7 @@
       th,
       td {
         border: 1px solid black;
-        padding: 4%;
+        padding: 2%;
       }
       .cabecalho {
         color: white;
@@ -28,6 +37,9 @@
       }
       .numb {
         text-align: right;
+      }
+      tbody tr:nth-child(2n) {
+        background-color: lightgray;
       }
     </style>
   </head>
@@ -43,7 +55,7 @@
           <th scope="col">Estimativa populacional</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody class="color">
         <tr>
           <td class="-gray">São Paulo</td>
           <td class="numb">46 081 801</td>
@@ -76,5 +88,77 @@
         </tr>
       </tfoot>
     </table>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti
+      officia dolorem voluptatibus? Dolores quibusdam consequatur eos, quia
+      tempore illum voluptatum modi laboriosam unde, distinctio, veritatis
+      reiciendis dicta sit et. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Voluptatem saepe dicta vero beatae sit tenetur. Quis,
+      quibusdam eligendi dolores facilis dolor illum aliquid molestias
+      laudantium repellat odio, at sunt totam? Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Ipsa ut deleniti aperiam est vel adipisci
+      harum, accusantium placeat ex repudiandae blanditiis nisi eos nemo odio
+      expedita eveniet! Ipsum, natus obcaecati? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Corporis architecto odit quaerat consectetur
+      est quasi doloribus, exercitationem voluptas dolores, suscipit velit alias
+      excepturi odio ullam tempore voluptates quas sunt blanditiis. Lorem ipsum
+      dolor sit amet, consectetur adipisicing elit. Sit modi beatae dolores
+      deserunt minus? A, similique accusantium! Ullam voluptates debitis eum
+      magnam itaque placeat, nisi officia ratione sunt corporis maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti
+      officia dolorem voluptatibus? Dolores quibusdam consequatur eos, quia
+      tempore illum voluptatum modi laboriosam unde, distinctio, veritatis
+      reiciendis dicta sit et. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Voluptatem saepe dicta vero beatae sit tenetur. Quis,
+      quibusdam eligendi dolores facilis dolor illum aliquid molestias
+      laudantium repellat odio, at sunt totam? Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Ipsa ut deleniti aperiam est vel adipisci
+      harum, accusantium placeat ex repudiandae blanditiis nisi eos nemo odio
+      expedita eveniet! Ipsum, natus obcaecati? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Corporis architecto odit quaerat consectetur
+      est quasi doloribus, exercitationem voluptas dolores, suscipit velit alias
+      excepturi odio ullam tempore voluptates quas sunt blanditiis. Lorem ipsum
+      dolor sit amet, consectetur adipisicing elit. Sit modi beatae dolores
+      deserunt minus? A, similique accusantium! Ullam voluptates debitis eum
+      magnam itaque placeat, nisi officia ratione sunt corporis maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti
+      officia dolorem voluptatibus? Dolores quibusdam consequatur eos, quia
+      tempore illum voluptatum modi laboriosam unde, distinctio, veritatis
+      reiciendis dicta sit et. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Voluptatem saepe dicta vero beatae sit tenetur. Quis,
+      quibusdam eligendi dolores facilis dolor illum aliquid molestias
+      laudantium repellat odio, at sunt totam? Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Ipsa ut deleniti aperiam est vel adipisci
+      harum, accusantium placeat ex repudiandae blanditiis nisi eos nemo odio
+      expedita eveniet! Ipsum, natus obcaecati? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Corporis architecto odit quaerat consectetur
+      est quasi doloribus, exercitationem voluptas dolores, suscipit velit alias
+      excepturi odio ullam tempore voluptates quas sunt blanditiis. Lorem ipsum
+      dolor sit amet, consectetur adipisicing elit. Sit modi beatae dolores
+      deserunt minus? A, similique accusantium! Ullam voluptates debitis eum
+      magnam itaque placeat, nisi officia ratione sunt corporis maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti
+      officia dolorem voluptatibus? Dolores quibusdam consequatur eos, quia
+      tempore illum voluptatum modi laboriosam unde, distinctio, veritatis
+      reiciendis dicta sit et. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Voluptatem saepe dicta vero beatae sit tenetur. Quis,
+      quibusdam eligendi dolores facilis dolor illum aliquid molestias
+      laudantium repellat odio, at sunt totam? Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Ipsa ut deleniti aperiam est vel adipisci
+      harum, accusantium placeat ex repudiandae blanditiis nisi eos nemo odio
+      expedita eveniet! Ipsum, natus obcaecati? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Corporis architecto odit quaerat consectetur
+      est quasi doloribus, exercitationem voluptas dolores, suscipit velit alias
+      excepturi odio ullam tempore voluptates quas sunt blanditiis. Lorem ipsum
+      dolor sit amet, consectetur adipisicing elit. Sit modi beatae dolores
+      deserunt minus? A, similique accusantium! Ullam voluptates debitis eum
+      magnam itaque placeat, nisi officia ratione sunt corporis maiores!
+    </p>
   </body>
 </html>
