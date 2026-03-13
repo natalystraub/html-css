@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escolhas de cores</title>
+  </head>
+  <body>
+    <h1>Exemplo de formularios</h1>
+    <form action="cadastro.php" method="post">
+      <fieldset>
+        <legend>Escolha a cor</legend>
+        <p>
+          <label for="icor">Cor</label>
+          <input type="color" name="cor" id="icor" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Envie arquivo</legend>
+        <p>
+          <label for="ifoto">Anexe o arquivo</label>
+          <input type="file" name="foto" id="ifoto" />
+        </p>
+      </fieldset>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+
+      <p>
+        <label for="isat">Nivel de satisfacao</label>
+        <input type="range" name="sat" id="isat" min="1" max="5" />
+      </p>
+    </form>
+  </body>
+</html>
